@@ -1,0 +1,33 @@
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  test_colorlog log                                                         |
+ |  Fri, Jan/05/2024 at 12:37:29 PM                                           |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+[info Jan/05/2024T12:37:29] an informational message
+[warn Jan/05/2024T12:37:29] an warning message
+[alarm Jan/05/2024T12:37:29] an alarm
+[debug Jan/05/2024T12:37:29] a debugging message
+basic printing
+[mine Jan/05/2024T12:37:29] personal message
+[info Jan/05/2024T12:37:29] a changed, informational message
+[info Jan/05/2024T12:37:29] another changed, informational message
+suppressed STDout
+and... we're back
+[info] no timestamps now
+and we're back after closing
+
+[info] 0
+[info] 1
+[info] 2
+[info] 3
+[info] 4
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ | Finished.                                                                  |
+ | run time: 0.7930817000000001 s                                             |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+

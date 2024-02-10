@@ -1,1 +1,1 @@
-# Python-color-logging
+# Logscript
